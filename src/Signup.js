@@ -71,7 +71,7 @@ function Signup(){
             <input type="tel" placeholder="Enter contact no" value={contact} onChange={e=>checkValidNumber(e)} />
             <input type='email'  placeholder="Enter email"value={email} onChange={e=>setEmail(e.target.value)} />
             <span>Check console log for api response</span><br/>
-            <span onClick={changeButton} id="like"><i className="fa-solid fa-thumbs-up"></i></span>
+            <span onClick={changeButton} id="like" className='color'><i className="fa-solid fa-thumbs-up"></i></span>
             <button type="submit" onClick={submit}>Submit</button>
         </form>
     )
